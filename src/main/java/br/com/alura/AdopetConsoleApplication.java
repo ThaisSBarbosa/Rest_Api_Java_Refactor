@@ -13,7 +13,6 @@ public class AdopetConsoleApplication {
 	public static void main(String[] args) {
 		CommandExecutor commandExecutor = new CommandExecutor();
 
-		System.out.println("##### BOAS VINDAS AO SISTEMA ADOPET CONSOLE #####");
 		try {
 			int opcaoEscolhida = 0;
 			while (opcaoEscolhida != 5) {
@@ -44,6 +43,7 @@ public class AdopetConsoleApplication {
 	}
 	
 	private static void exibeMenu() {
+		System.out.println("##### BOAS VINDAS AO SISTEMA ADOPET CONSOLE #####");
 		System.out.println("\nDIGITE O NÚMERO DA OPERAÇÃO DESEJADA:");
 		System.out.println("1 -> Listar abrigos cadastrados");
 		System.out.println("2 -> Cadastrar novo abrigo");
